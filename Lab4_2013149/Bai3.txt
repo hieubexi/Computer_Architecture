@@ -1,0 +1,3 @@
+a)Giá trị của thanh ghi $a2 là 4950
+b)Tổng số chu kì là 403 chu kì
+c)Mã máy của lệnh j loop là 0x10080018
