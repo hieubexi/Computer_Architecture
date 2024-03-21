@@ -1,0 +1,9 @@
+Bai1:
+a) Hex: CA202000
+   Binary: 11001010001000000010000000000000
+   IEEE 754 : 2623488
+b) Nội dung thanh ghi mà giá trị số thực của nó là 36.15624 là 0x4210A000
+c) Không thể chuyển vì phần lẻ là 0.2 < 0.5 nên không chuyển được sang IEEE 754.
+2 số thực liên tiếp trong phạm vi 8,388,608 bit(độ chính xác đơn) sau dấu thập phân 
+vẫn chính xác nhưng ra khỏi số bit đó  sẽ làm tròn lên số gần nhất.(độ chính xác kép 
+là 9,007,199,254,740,992 bit)
