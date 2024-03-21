@@ -1,0 +1,27 @@
+Bài 1 : 
+• PC Register (Program counter) : Thanh ghi chứa địa chỉ của lệnh trong chương trình
+ đang thực thi.
+   Next PC Register : Thanh ghi chứa địa chỉ của lệnh tiếp theo trong chương trình 
+đang thực thi ( Next PC <- PC + 4 )
+• Instruction memory : Bộ nhớ lệnh - chứa địa chỉ của tất cả các lệnh thực thi của chương 
+trình (.text). 
+		   Input  : Chuỗi 32-bit của địa chỉ lệnh thực thi
+		   Output : Chuỗi 32-bit của lệnh được chọn để thực thi 
+• Registers : tập hợp chứa 32 thanh ghi, có 2 cổng đọc và 1 cổng ghi.
+		   Input  : 
+		   Output :
+• ALU : Thực hiện tính toán
+	         Input  : Hai giá trị đầu vào
+		   Output : Một giá trị đầu ra là kết quả của lệnh toán học, luận lý (add, sub, 
+											    div, mul, and, or,..)
+• Bộ Control : Khối điều khiển nhận input trực tiếp từ output của Instruction Memory.
+		   Output : sinh ra tín hiệu điều khiển chức năng của một khối.
+• Data memory :  là vùng nhớ dữ liệu (.data)
+		   Input  : Chuỗi 
+               Output :
+
+• Bộ chọn (MUX) : Dùng để chọn input cho output tương ứng. Tín hiệu select đưa ra sự lựa chọn.
+		
+• Sign-extend : Bộ mở rộng dấu, mở rộng từ 16 bits -> 32 bits
+		    Ví dụ : Input  : 0000 0101 0101 0011
+				Output : 0000 0000 0000 0000 0000 0101 0101 0011

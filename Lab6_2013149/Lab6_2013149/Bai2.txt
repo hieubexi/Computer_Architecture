@@ -1,0 +1,27 @@
+• RegDst - Chọn thanh ghi kết quả
+	    	1 : Chọn Rd để ghi kết quả
+	 	0 : Chọn Rt để ghi kết quả
+• RegWrite - Ghi kết quả vào thanh ghi
+		1 : Cho phép ghi
+		0 : Không ch o phép
+• MemRead - Đọc từ data memory
+		1 : Cho phép đọc
+		0 : Không cho phép
+• MemWrite - Ghi vào data memory
+		1 : Cho phép đọc
+		0 : Không cho phép 
+• MemtoReg - Dùng để chọn đường từ data memory đến thanh ghi
+		1 : Dữ liệu từ data memory -> thanh ghi(load)
+		0 : Dữ liệu từ ALU -> thanh ghi
+• Beq - Dùng cho lệnh rẽ nhánh nếu hai đầu ra bằng nhau (Branch if equal)
+		1 : Lệch beq
+		0 : Không phải lệnh beq
+• Bne - Dùng cho lệnh rẽ nhánh nếu không bằng nhau (Branch if not equal)
+		1 : Lệnh bne
+		0 : Không phải lệnh bne
+• jump - Dùng cho các lệnh nhảy không có điều kiện
+		1 : Lệnh jump
+		0 : Không phải lệnh jump
+• ALUSrc - Chọn toán hạng cho ALU : Thanh ghi hoặc số (immediate)
+		1 : Chọn số
+		0 : Chọn thanh ghi
